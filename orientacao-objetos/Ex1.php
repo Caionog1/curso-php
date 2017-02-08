@@ -1,19 +1,11 @@
 <?php
 
-  class conta{
-    public $nome;
-    public $saldo;
-    public $dono;
-  }
+  //spl_autoload_register();
 
+  require_once 'Cliente.php';
+  require_once 'Conta.php';
 
-  class Cliente{
-    public $nome;
-    public $codigo;
-  }
-
-
-/*  $cliente = new Cliente;
+  $cliente = new Cliente;
   $cliente->nome = "Joao";
 
   $conta = new Conta;
@@ -25,5 +17,5 @@
   $conta->dono = $cliente;
 
   echo "Nome do dono da conta:{$conta->numero->$nome}".PHP_EOL;
-*/
+
  ?>
